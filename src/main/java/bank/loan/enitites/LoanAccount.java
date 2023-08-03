@@ -107,12 +107,6 @@ public class LoanAccount {
 				&& loanid == other.loanid && Objects.equals(loantype, other.loantype)
 				&& Objects.equals(status, other.status);
 	}
-
-	@Override
-	public String toString() {
-		return "LoanAccount [loanid=" + loanid + ", customername=" + customername + ", loantype=" + loantype
-				+ ", loanamount=" + loanamount + ", status=" + status + "]";
-	}
 	
 	
 }
